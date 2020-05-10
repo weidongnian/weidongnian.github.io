@@ -20,4 +20,4 @@
 
 # 博客
 
-1. [abp vnext api host 项目中未启用oauth2认证，需要手动开启](./page/blogs/abp vnext swager identity4.md)
+1. [abp vnext api host 项目中未启用oauth2认证，需要手动开启](./page/blogs/abpvnextswageridentity4.md)
