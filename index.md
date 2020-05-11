@@ -12,6 +12,8 @@
 
 2. [elementUI](https://element.eleme.cn/#/zh-CN/component/)
 
+3. [vuex](https://vuex.vuejs.org/zh/guide/)
+
 ## 收藏
 
 1. [abp vnext](https://docs.abp.io/zh-Hans/abp/latest/)
