@@ -25,4 +25,4 @@
 
 ## 格言
 
-. [业精于勤荒于嬉，行成于思毁于随](https://github.com/weidongnian/weidongnian.github.io/blob/master/index.md)
+* [业精于勤荒于嬉，行成于思毁于随](https://github.com/weidongnian/weidongnian.github.io/blob/master/index.md)
