@@ -18,6 +18,7 @@
 
 3. [bing.com](https://cn.bing.com/)
 
+4. [dotnet core优秀的库、框架、项目](https://github.com/jasonhua95/awesome-dotnet-core/blob/master/README_CN.md)
 ## 博客
 
 1. [abp vnext api host 项目中未启用Oauth2认证，需要手动开启](./page/blogs/abpVnextSwaggerIdentity4.md)
