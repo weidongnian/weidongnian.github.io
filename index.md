@@ -25,6 +25,4 @@
 
 ## 格言
 
-1. 业精于勤荒于嬉，行成于思毁于随
-
-2. 与世俗和解而保持自我，与现实妥协而不忘突破
+_ [业精于勤荒于嬉，行成于思毁于随](https://github.com/weidongnian/weidongnian.github.io/blob/master/index.md)
