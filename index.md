@@ -26,7 +26,9 @@
 
 ## 博客
 
-1. [abp vnext api host 项目中未启用Oauth2认证，需要手动开启](./page/blogs/abpVnextSwaggerIdentity4.md)
+* [abp vnext api host 项目中未启用Oauth2认证，需要手动开启](./page/blogs/abpVnextSwaggerIdentity4.md)
+
+* [abp vnext 加上后台作业监听RabbitMQ事件发来的消息事件](./page/blogs/abp_vnex_backgroundWorkers_subscribe.md)
 
 ## 格言
 
