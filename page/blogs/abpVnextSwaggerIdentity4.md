@@ -26,6 +26,6 @@
                     options.DocInclusionPredicate ((docName, description) => true);
                 });
                 
-     3. **运行接口(站点)，会发现swagger ui首页右上角上发现一个输入框，请输入identity4登录返回来的token**
+3. **运行接口(站点)，会发现swagger ui首页，右上角上有一个Authorize按钮，点击后弹出输入框，请输入identity4登录返回来的token，然后可以在线调试需要认证的接口了**
      
      
