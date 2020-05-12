@@ -2,18 +2,18 @@
 
 1. **引入依赖到Module**
 
-    [DependsOn (
-          typeof(AbpBackgroundWorkersModule)//后台作业
-      )]
-      public class 项目ApiHostModule : AbpModule {
-        //启用后台任务
-            Configure<AbpBackgroundWorkerOptions> (options => {
-                options.IsEnabled = true;
-            });
-      }
+        [DependsOn (
+              typeof(AbpBackgroundWorkersModule)//后台作业
+          )]
+          public class 项目ApiHostModule : AbpModule {
+            //启用后台任务
+                Configure<AbpBackgroundWorkerOptions> (options => {
+                    options.IsEnabled = true;
+                });
+          }
   
 2. **定义MyBackgroundWorker类，并继承IBackgroundWorker接口**
-  
+、、、、
 namespace SZYJ.Stroke
 {
     public class TimeEquipmentBackgroundWorker : IBackgroundWorker
@@ -67,13 +67,13 @@ namespace SZYJ.Stroke
               return _backgroundWorker.StopAsync(cancellationToken);
           }
       }
-      
+、、、、   
  4. **在Module里的OnApplicationInitialization方法里调用并传入作业类**
  
-      public override void OnApplicationInitialization (ApplicationInitializationContext context) {
-      
-        context.AddBackgroundWorker<MyBackgroundWorker>();        
-        
-      }
+          public override void OnApplicationInitialization (ApplicationInitializationContext context) {
+
+            context.AddBackgroundWorker<MyBackgroundWorker>();        
+
+          }
  
  
