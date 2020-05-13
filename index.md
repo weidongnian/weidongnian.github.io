@@ -32,6 +32,8 @@
 
 * vue router 多级路由加上默认子页跳转
 
+* One or more errors occurred. (A DbContext can only be created inside a unit of work!)
+
 ## 格言
 
 * [业精于勤荒于嬉，行成于思毁于随](https://github.com/weidongnian/weidongnian.github.io/blob/master/index.md)
