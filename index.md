@@ -42,13 +42,13 @@
   
   1. 因为 docker 默认无法访问外部网站，所以build 时要加上 --network=host 
     
-    docker build -t 影像名称 -f 目录/Dockerfile . --network=host
+        docker build -t 影像名称 -f 目录/Dockerfile . --network=host
 
   2. 因为 docker build 失败导致许多无用images占用时大量空间，要消除
   
-    docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker stop
-    docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker rm
-    docker images|grep none|awk '{print $3 }'|xargs docker rmi
+        docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker stop
+        docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker rm
+        docker images|grep none|awk '{print $3 }'|xargs docker rmi
     
     
 ## 格言
