@@ -38,6 +38,19 @@
 
 * One or more errors occurred. (A DbContext can only be created inside a unit of work!)
 
+* jenkins + docker 运行abp vnext 框架出现的一些问题和解决方法
+  
+  1. 因为 docker 默认无法访问外部网站，所以build 时要加上 --network=host 
+    
+    docker build -t 影像名称 -f 目录/Dockerfile . --network=host
+
+  2. 因为 docker build 失败导致许多无用images占用时大量空间，要消除
+  
+    docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker stop
+    docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker rm
+    docker images|grep none|awk '{print $3 }'|xargs docker rmi
+    
+    
 ## 格言
 
 * [业精于勤荒于嬉，行成于思毁于随](https://github.com/weidongnian/weidongnian.github.io/blob/master/index.md)
