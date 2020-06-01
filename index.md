@@ -47,7 +47,9 @@
   2. 因为 docker build 失败导致许多无用images占用时大量空间，要消除
   
         docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker stop
+        
         docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker rm
+        
         docker images|grep none|awk '{print $3 }'|xargs docker rmi
     
     
