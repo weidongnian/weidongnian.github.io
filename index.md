@@ -10,6 +10,14 @@
 
 5. [szyj jenkins](http://192.168.1.249:18080/)
 
+6. [卒中本地接口](http://192.168.0.57:62999/swagger/index.html)
+
+7. [卒中内网接口](http://192.168.1.249:62999/swagger/index.html)
+
+8. [卒中认证接口](http://192.168.1.249:64999)
+
+9. [卒中内网pc](http://192.168.1.249:8001/platform.html#/login)
+
 ## 前端
 
 1. [vue](https://cn.vuejs.org/v2/guide/)
