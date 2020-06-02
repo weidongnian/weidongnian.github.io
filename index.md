@@ -50,6 +50,8 @@
 
 * One or more errors occurred. (A DbContext can only be created inside a unit of work!)
 
+    手动开启unitOfWork,使用AsyncHelp
+
 * jenkins + docker 运行abp vnext 框架出现的一些问题和解决方法
   
   1. 因为 docker 默认无法访问外部网站，所以build 时要加上 --network=host 
