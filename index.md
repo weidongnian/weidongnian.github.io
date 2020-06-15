@@ -20,6 +20,9 @@
 
 10. [南方医EyeBlue](http://120.24.100.216:8810/?page=0&pageSize=50&orderCreateTime=DESC&puuid=30d03581-8506-42f9-6232-1fc72302868c&userUuid=89cf7ffd-d348-4164-64e2-f0a00bdbfdde&orderDir=DESC)
 
+11. [胸痛内网接口](http://192.168.1.249:52999/swagger/index.html)
+
+12. [胸痛本地接口](http://localhost:52999/swagger/index.html)
 
 ## 前端
 
