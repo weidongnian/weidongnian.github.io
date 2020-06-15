@@ -24,6 +24,8 @@
 
 12. [胸痛本地接口](http://localhost:52999/swagger/index.html)
 
+13. [nginx 8081](http://localhost:8081)
+
 ## 前端
 
 1. [vue](https://cn.vuejs.org/v2/guide/)
