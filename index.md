@@ -24,7 +24,7 @@
 
 12. [胸痛本地接口](http://localhost:52999/swagger/index.html)
 
-13. [nginx 8081](http://localhost:8081)
+13. [nginx 8001](http://localhost:8001)
 
 ## 前端
 
