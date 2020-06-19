@@ -26,7 +26,9 @@
 
 13. [胸痛内网登录](http://192.168.1.249:8001/chest/chest.html)
 
-13. [nginx 8001](http://localhost:8001)
+14. [胸痛内网接口](http://192.168.1.249:52999/swagger/index.html)
+
+15. [nginx 8001](http://localhost:8001)
 
 ## 前端
 
