@@ -24,7 +24,7 @@
 
 12. [胸痛本地接口](http://localhost:52999/swagger/index.html)
 
-13. [胸痛内网登录](http://192.168.1.249:8001/chest/chest.html)
+13. [胸痛内网pc](http://192.168.1.249:8001/chest/chest.html)
 
 14. [胸痛内网接口](http://192.168.1.249:52999/swagger/index.html)
 
