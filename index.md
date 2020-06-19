@@ -10,7 +10,7 @@
 
 5. [szyj jenkins](http://192.168.1.249:18080/)
 
-6. [卒中本地接口](http://192.168.0.57:62999/swagger/index.html)
+6. [卒中本地接口](http://localhost:62999/swagger/index.html)
 
 7. [卒中内网接口](http://192.168.1.249:62999/swagger/index.html)
 
