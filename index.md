@@ -1,42 +1,43 @@
 ## 工作办公
 
-1. [蓝湖](https://lanhuapp.com/web/#/item?cid=&fid=all&commonly=join)
+. [蓝湖](https://lanhuapp.com/web/#/item?cid=&fid=all&commonly=join)
 
-2. [腾讯文档](https://docs.qq.com/desktop/)
+. [腾讯文档](https://docs.qq.com/desktop/)
 
-3. [尚哲接口文档](http://120.24.100.216/weidongnian/szyj.stroke/blob/develop/%E5%89%8D%E7%AB%AF%E6%8E%A5%E5%8F%A3%E5%9C%B0%E5%9D%80.md)
+. [szyj gitlab](http://120.24.100.216/)
 
-4. [szyj gitlab](http://120.24.100.216/)
+. [szyj jenkins](http://192.168.1.249:18080/)
 
-5. [szyj jenkins](http://192.168.1.249:18080/)
 
-6. [卒中本地接口](http://localhost:62999/swagger/index.html)
+. [南方医EyeBlue](http://120.24.100.216:8810/?page=0&pageSize=50&orderCreateTime=DESC&puuid=30d03581-8506-42f9-6232-1fc72302868c&userUuid=89cf7ffd-d348-4164-64e2-f0a00bdbfdde&orderDir=DESC)
 
-7. [卒中内网接口](http://192.168.1.249:62999/swagger/index.html)
-
-8. [卒中认证接口](http://192.168.1.249:64999)
-
-9. [卒中内网pc](http://192.168.1.249:8001/platform.html#/login)
-
-10. [南方医EyeBlue](http://120.24.100.216:8810/?page=0&pageSize=50&orderCreateTime=DESC&puuid=30d03581-8506-42f9-6232-1fc72302868c&userUuid=89cf7ffd-d348-4164-64e2-f0a00bdbfdde&orderDir=DESC)
-
-11. [胸痛内网接口](http://192.168.1.249:52999/swagger/index.html)
-
-12. [胸痛本地接口](http://localhost:52999/swagger/index.html)
-
-13. [胸痛内网pc](http://192.168.1.249:8001/chest/chest.html)
-
-14. [胸痛内网接口](http://192.168.1.249:52999/swagger/index.html)
-
-15. [nginx 8001](http://localhost:8001)
-
-16. [卒中胸痛后台](http://192.168.1.249:63998/)
+. [nginx 8001](http://localhost:8001)
 
 ## 卒中中心
 
+. [卒中前端接口文档](http://120.24.100.216/weidongnian/szyj.stroke/blob/develop/%E5%89%8D%E7%AB%AF%E6%8E%A5%E5%8F%A3%E5%9C%B0%E5%9D%80.md)
+
+. [卒中本地接口](http://localhost:62999/swagger/index.html)
+
+. [卒中内网接口](http://192.168.1.249:62999/swagger/index.html)
+
+. [卒中认证接口](http://192.168.1.249:64999)
+
+. [卒中内网pc](http://192.168.1.249:8001/platform.html#/login)
+
+
 ## 胸痛中心
 
-_. [卒中胸痛后台](http://192.168.1.249:63998/)
+. [胸痛前端接口文档](http://120.24.100.216/weidongnian/szyj.stroke/blob/chestPainCenter/%E5%89%8D%E7%AB%AF%E6%8E%A5%E5%8F%A3%E5%9C%B0%E5%9D%80.md)
+
+. [胸痛内网接口](http://192.168.1.249:52999)
+
+. [胸痛本地接口](http://localhost:52999)
+
+. [卒中胸痛后台](http://192.168.1.249:63998/)
+
+. [胸痛内网pc](http://192.168.1.249:8001/chest/chest.html)
+
 
 ## 前端
 
