@@ -42,11 +42,13 @@
 
 ## 前端
 
-1. [vue](https://cn.vuejs.org/v2/guide/)
+. [vue](https://cn.vuejs.org/v2/guide/)
 
-2. [elementUI](https://element.eleme.cn/#/zh-CN/component/)
+. [elementUI](https://element.eleme.cn/#/zh-CN/component/)
 
-3. [vuex](https://vuex.vuejs.org/zh/guide/)
+. [vuex](https://vuex.vuejs.org/zh/guide/)
+
+. [jq datatables](http://datatables.club/reference/)
 
 ## 收藏
 
