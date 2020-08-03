@@ -20,13 +20,13 @@
 
 . [卒中本地接口](http://localhost:62999/swagger/index.html)
 
-. [卒中内网接口](http://192.168.1.249:62999/swagger/index.html)
+. [卒中内网接口](http://192.168.1.162:30001/swagger/index.html?urls.primaryName=%E5%8D%92%E4%B8%AD%E4%B8%AD%E5%BF%83%E6%9C%8D%E5%8A%A1)
 
-. [卒中认证接口](http://192.168.1.249:64999)
+. [卒中认证接口](http://192.168.1.162:30001/api/oauth)
 
-. [卒中内网pc](http://192.168.1.249:8001/platform.html#/login)
+. [卒中内网pc](http://192.168.1.162:30001/stroke-web/stroke/stroke.html)
 
-. [卒中后台](http://192.168.1.249:63998/)
+. [卒中后台](http://192.168.0.74:63998/)
 
 
 ## 胸痛中心
