@@ -33,13 +33,13 @@
 
 . [胸痛前端接口文档](http://120.24.100.216/weidongnian/szyj.stroke/blob/chestPainCenter/%E5%89%8D%E7%AB%AF%E6%8E%A5%E5%8F%A3%E5%9C%B0%E5%9D%80.md)
 
-. [胸痛内网接口](http://192.168.1.249:52999)
+. [胸痛内网接口](http://192.168.1.162:30001/api/chest)
 
 . [胸痛本地接口](http://localhost:52999)
 
-. [胸痛内网pc](http://192.168.1.249:8001/chest/chest.html)
+. [胸痛内网pc](http://192.168.1.162:30001/stroke-web/chest/chest.html)
 
-. [胸痛后台](http://192.168.1.249:63998/)
+. [胸痛后台](http://192.168.0.79:63998/)
 
 
 ## 前端
