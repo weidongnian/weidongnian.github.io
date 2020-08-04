@@ -33,7 +33,7 @@
 
 . [胸痛前端接口文档](http://120.24.100.216/weidongnian/szyj.stroke/blob/chestPainCenter/%E5%89%8D%E7%AB%AF%E6%8E%A5%E5%8F%A3%E5%9C%B0%E5%9D%80.md)
 
-. [胸痛内网接口](http://192.168.1.162:30001/api/chest)
+. [胸痛内网接口](http://192.168.1.162:30001/swagger/index.html?urls.primaryName=%E8%83%B8%E7%97%9B%E4%B8%AD%E5%BF%83%E6%9C%8D%E5%8A%A1)
 
 . [胸痛本地接口](http://localhost:52999)
 
