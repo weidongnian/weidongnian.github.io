@@ -14,6 +14,8 @@
 
 . [nginx 8001](http://localhost:8001)
 
+. [内网数据库工具](http://192.168.0.74:8082/)
+
 ## 卒中中心
 
 . [卒中前端接口文档](http://120.24.100.216/weidongnian/szyj.stroke/blob/develop/%E5%89%8D%E7%AB%AF%E6%8E%A5%E5%8F%A3%E5%9C%B0%E5%9D%80.md)
