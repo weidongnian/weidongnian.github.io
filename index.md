@@ -100,7 +100,7 @@
         
   3. kubectl 创建 configmap
    
-        kubectl create cm api-server-config --from-file=ocelot.json=./ocelot.json --from-file=appsettings=./appsettings.json  --dry-run -o yaml
+        kubectl create cm api-server-config --from-file=ocelot.json=./ocelot.json --from-file=appsettings.json=./appsettings.json  --dry-run -o yaml
     
 ## 格言
 
