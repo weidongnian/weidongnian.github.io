@@ -97,7 +97,10 @@
         docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker rm
         
         docker images|grep none|awk '{print $3 }'|xargs docker rmi
-    
+        
+  3. kubectl 创建 configmap
+   
+        kubectl create cm api-server-config --from-file=ocelot.json=./ocelot.json --from-file=appsettings=./appsettings.json  --dry-run -o yaml
     
 ## 格言
 
