@@ -32,6 +32,8 @@
 
 . [卒中后台162](http://192.168.1.162:30003/)
 
+. [卒中外网pc](http://120.24.100.216:30001/stroke-web/stroke/stroke.html#/patients/index)
+
 
 ## 胸痛中心
 
