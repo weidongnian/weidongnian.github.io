@@ -6,6 +6,8 @@
 
 . [szyj gitlab](http://120.24.100.216/)
 
+. [szyj new gitlab](http://219.134.240.180:10080/)
+
 . [szyj jenkins](http://192.168.1.249:18080/)
 
 . [南方医EyeBlue](http://120.24.100.216:8810)
