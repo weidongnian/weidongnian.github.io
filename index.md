@@ -65,6 +65,8 @@
 
 . [gitlab item index md](http://120.24.100.216/iHospital-nfy/backend/tree/develop)
 
+. [摹客 产品原型](https://app.mockplus.cn/run/Y_rrshezWwuo/8nybVGNHMvd)
+
 
 ## 前端
 
