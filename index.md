@@ -67,6 +67,8 @@
 
 . [摹客 产品原型](https://app.mockplus.cn/team/mlwhechwfb/AppSet/G_-MdzNTuDP)
 
+. [新摹客](https://app.mockplus.cn/run/prototype/rFXobn3OzbX/WHNDyS1mmD/lJLMwTmckw)
+
 
 ## 前端
 
