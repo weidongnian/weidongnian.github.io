@@ -69,6 +69,8 @@
 
 . [新摹客](https://app.mockplus.cn/run/prototype/rFXobn3OzbX/WHNDyS1mmD/lJLMwTmckw)
 
+. ![互联网小程序](http://219.134.240.180:10080/ihospital/backend/-/blob/develop/%E6%96%87%E6%A1%A3/Image/qrcode.jpg)
+
 
 ## 前端
 
