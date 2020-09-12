@@ -59,11 +59,11 @@
 
 ## 南方医互联网医院
 
-. [38 swagger](http://172.28.204.38:30019/swagger/index.html)
+. [50 swagger](http://172.28.204.50:30019/swagger/index.html)
 
 . [外网 swagger](https://dev.szyjian.com/swagger/index.html?urls.primaryName=%E4%BA%92%E8%81%94%E7%BD%91%E5%8C%BB%E9%99%A2)
 
-. [gitlab item index md](http://120.24.100.216/iHospital-nfy/backend/tree/develop)
+. [gitlab item index md](http://219.134.240.180:10080/ihospital/backend/-/blob/develop/README.md)
 
 . [摹客 产品原型](https://app.mockplus.cn/team/mlwhechwfb/AppSet/G_-MdzNTuDP)
 
