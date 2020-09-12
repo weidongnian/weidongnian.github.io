@@ -73,6 +73,14 @@
 
 . [gitLab](http://219.134.240.180:10080/ihospital/backend/-/tree/develop)
 
+. [医生端](http://doctor.szyjian.com/)
+
+. [延续护理管理后台](http://219.134.240.180:10035/dist/inurse.html#/)
+
+. [互联网医院管理后台](http://219.134.240.180:10035/dist/login.html)
+
+. [延续护理护士端](http://219.134.240.180:10035/h5/)
+
 
 ## 前端
 
