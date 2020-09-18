@@ -22,6 +22,8 @@
 
 . [rabbit dashboard](http://192.168.1.162:31672/#/)
 
+. [惮道](http://219.134.240.180:10037/zentao/user-login.html)
+
 ## 卒中中心
 
 . [卒中前端接口文档](http://120.24.100.216/weidongnian/szyj.stroke/blob/develop/%E5%89%8D%E7%AB%AF%E6%8E%A5%E5%8F%A3%E5%9C%B0%E5%9D%80.md)
