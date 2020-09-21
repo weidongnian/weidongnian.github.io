@@ -65,6 +65,8 @@
 
 . [外网 swagger](https://dev.szyjian.com/swagger/index.html?urls.primaryName=%E4%BA%92%E8%81%94%E7%BD%91%E5%8C%BB%E9%99%A2)
 
+. [内网60swagger](http://172.28.204.60:8888/swagger/index.html?urls.primaryName=%E4%BA%92%E8%81%94%E7%BD%91%E5%8C%BB%E9%99%A2)
+
 . [gitlab item index md](http://219.134.240.180:10080/ihospital/backend/-/blob/develop/README.md)
 
 . [摹客 产品原型](https://app.mockplus.cn/team/mlwhechwfb/AppSet/G_-MdzNTuDP)
