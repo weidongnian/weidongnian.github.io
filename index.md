@@ -73,6 +73,8 @@
 
 . [新摹客](https://app.mockplus.cn/run/prototype/rFXobn3OzbX/WHNDyS1mmD/lJLMwTmckw)
 
+. [复诊续方 慕客](https://app.mockplus.cn/run/prototype/wFT3M6SYtO/PaZWH4F8B1Y/Yhm6nFlRJX)
+
 . [互联网小程序 qr](http://219.134.240.180:10080/ihospital/backend/-/blob/develop/%E6%96%87%E6%A1%A3/Image/qrcode.jpg)
 
 . [gitLab](http://219.134.240.180:10080/ihospital/backend/-/tree/develop)
