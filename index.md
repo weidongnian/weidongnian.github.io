@@ -16,7 +16,7 @@
 
 . [nginx 8001](http://localhost:8001)
 
-. [内网数据库工具](http://192.168.0.74:8082/)
+. [内网数据库工具](http://192.168.1.162:30011/db)
 
 . [kuboard](http://192.168.1.162:32567/dashboard)
 
@@ -115,6 +115,8 @@
 7. [小程序](https://developers.weixin.qq.com/miniprogram/dev/framework/structure.html)
 
 8. [流程图](https://www.processon.com/diagrams)
+
+9. [app插件模块](https://www.processon.com/view/5a66987be4b05a8ff314042e#map)
 
 
 ## 博客
