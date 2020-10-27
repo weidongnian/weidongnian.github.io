@@ -42,6 +42,8 @@
 
 . [卒中外网pc](http://120.24.100.216:30001/stroke-web/stroke/stroke.html#/patients/index)
 
+. [中国卒中急救地图](http://ditu.chinasdc.cn/www/ditu2Web/index2Web.html)
+
 
 ## 胸痛中心
 
