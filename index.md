@@ -88,6 +88,10 @@
 
 . [延续护理护士端](http://219.134.240.180:10035/h5/)
 
+#重症
+
+. [产品原型](https://app.mockplus.cn/run/prototype/F9Y-YmLF11/Pk3AaZjdo/Pnab9JDrcuR)
+
 
 ## 前端
 
