@@ -123,6 +123,8 @@
 
 9. [app插件模块](https://www.processon.com/view/5a66987be4b05a8ff314042e#map)
 
+10. [abp vnext预制模块](https://docs.abp.io/zh-Hans/abp/latest/Modules/Index)
+
 ## GitHub
 
 . [Abp](https://github.com/abpframework)
