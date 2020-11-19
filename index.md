@@ -125,6 +125,8 @@
 
 10. [abp vnext预制模块](https://docs.abp.io/zh-Hans/abp/latest/Modules/Index)
 
+11. [abp vnext]审核日志(https://docs.abp.io/zh-Hans/abp/latest/Audit-Logging)
+
 ## GitHub
 
 . [Abp](https://github.com/abpframework)
