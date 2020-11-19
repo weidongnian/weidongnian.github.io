@@ -123,6 +123,10 @@
 
 9. [app插件模块](https://www.processon.com/view/5a66987be4b05a8ff314042e#map)
 
+## GitHub
+
+. [Abp](https://github.com/abpframework)
+
 
 ## 博客
 
