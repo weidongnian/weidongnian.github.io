@@ -127,6 +127,8 @@
 
 11. [abp vnext]审核日志(https://docs.abp.io/zh-Hans/abp/latest/Audit-Logging)
 
+12. [Convert Json to C# Classes Online](https://json2csharp.com/)
+
 ## GitHub
 
 . [Abp](https://github.com/abpframework)
