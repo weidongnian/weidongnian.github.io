@@ -90,6 +90,8 @@
 
 . [互联网医院-诊间支付产品原型](https://app.mockplus.cn/run/prototype/wO_BUahIzo/pUV4ORjlfL/r1vgw92rBiWJ)
 
+. [前置机-接口swagger](http://172.28.100.65/api/swagger-ui.html#/)
+
 ## 重症
 
 . [产品原型](https://app.mockplus.cn/run/prototype/F9Y-YmLF11/Pk3AaZjdo/Pnab9JDrcuR)
