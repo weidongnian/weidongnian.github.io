@@ -92,6 +92,8 @@
 
 . [前置机-接口swagger](http://172.28.100.65/api/swagger-ui.html#/)
 
+. [后台](https://dev.szyjian.com/dist/login.html)
+
 ## 重症
 
 . [产品原型](https://app.mockplus.cn/run/prototype/F9Y-YmLF11/Pk3AaZjdo/Pnab9JDrcuR)
