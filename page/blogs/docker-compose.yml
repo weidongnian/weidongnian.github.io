@@ -1,0 +1,186 @@
+version: '3'
+
+services: 
+  apisrv:
+    container_name: apisrv
+    image: registry.cn-shanghai.aliyuncs.com/shangzhe/api-server:1.201219.01
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Production"
+    volumes: 
+      #- /Users/weidongnian/Docker/Data/ApiServer/apisrv.settings.json:/app/appsettings.json
+      #- /Users/weidongnian/Docker/Data/ApiServer/ocelot.json:/app/ocelot.json
+      #- /data/ihospital/logs:/app/logs
+      #- /etc/localtime:/etc/localtime:ro
+    ports:
+      - "8888:80"
+  mssql:
+    container_name: mssql
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "DBA@samjan.com"
+      MSSQL_PID: "Developer"
+    ports:
+      - "1433:1433"
+    # networks:
+    #   - front-tier
+    volumes:
+      - /Users/weidongnian/Docker/Data/Mssql:/var/opt/mssql
+      - /etc/localtime:/etc/localtime:ro
+
+  ids:
+    container_name: ids
+    image: registry.apps.dev.szyjian.com/hit/idssrv:latest
+    # environment:
+    #   ACCEPT_EULA: "Y"
+    #   SA_PASSWORD: "DBA@samjan.com"
+    #   MSSQL_PID: "Developer"
+    ports:
+      - "8002:80"
+    # networks:
+    #   - front-tier
+    volumes:
+      - /Users/weidongnian/Docker/Data/ids/db.json:/app/appsettings.json
+  
+  redis:
+    restart: always
+    container_name: redis
+    image: redis:6.0-buster
+    ports:
+      - "6379:6379"
+    environment: 
+      TZ: Asia/Shanghai 
+    # volumes: 
+    #   - /etc/localtime:/etc/localtime:ro
+    # networks:
+    #   - front-tier
+  
+  rabbitmq:
+    container_name: rabbitmq
+    hostname: myrabbitmq
+    image: rabbitmq:3-management
+    environment:
+      RABBITMQ_DEFAULT_USER: "yjian"
+      RABBITMQ_DEFAULT_PASS: "yjian"
+      #TZ: CET
+    volumes: 
+      #- ./data:/var/lib/rabbitmq
+      - /Users/weidongnian/Docker/Data/rabbitmq/enabled_plugins:/etc/rabbitmq/enabled_plugins
+      - /etc/timezone:/etc/localtime:ro
+      #- /etc/localtime:/etc/localtime:ro
+      #- /etc/localtime:/etc/localtime
+    #启用 插件
+    #rabbitmq-plugins enable rabbitmq_web_stomp
+    # docker run -p 5672:5672 -p 15672:15672 -p 61613:61613 -p 15674:15674 -d --name rabbitmq -e TZ:CET -e RABBITMQ_DEFAULT_USER:yjian -e RABBITMQ_DEFAULT_PASS:yjian -v /Users/weidongnian/Docker/Data/rabbitmq/enabled_plugins:/etc/rabbitmq/enabled_plugins rabbitmq:3-management
+    # docker run -p 5672:5672 -p 15672:15672 -p 61613:61613 -p 15674:15674 -d --hostname wdn-rabbitmq --name rabbitmq -e RABBITMQ_DEFAULT_USER=yjian -e RABBITMQ_DEFAULT_PASS=yjian rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+      - "61613:61613"
+      - "15674:15674"
+    # networks:
+    #   - front-tier
+
+  authsvs: 
+    image: registry.apps.dev.szyjian.com/auth-server
+    container_name: authserver
+    ports: 
+      - "30001:80"
+    volumes: 
+      - /Users/weidongnian/Docker/ihospital-authService/Data/appsettings.json:/app/appsettings.json
+  dbtoolsvs: 
+    image: registry.apps.dev.szyjian.com/dbtool
+    container_name: dbtool
+    ports: 
+     - "30011:80"
+    volumes: 
+     - /Users/weidongnian/Docker/Data/dbtool/appsettings.json:/app/appsettings.json
+     - /Users/weidongnian/Docker/Data/dbtool/Template:/app/Template
+     - /Users/weidongnian/Docker/Data/dbtool/config.json:/app/config.json
+     #docker run --name mongodb 
+     #-v /mnt/mongodb/data:/data/db 
+     #-v /mnt/mongodb/backup:/data/backup 
+     #-v /mnt/mongodb/conf:/data/configdb -p 27018:27017 --network tms --network-alias mongodb -d mongo --auth
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    #network_mode: "host"
+    restart: always
+    volumes: 
+     - /Users/weidongnian/Docker/mongodb/data:/data/db
+     - /Users/weidongnian/Docker/mongodb/log:/var/log/mongodb
+     - /Users/weidongnian/Docker/mongodb/backup:/data/backup
+     - /Users/weidongnian/Docker/mongodb/conf:/data/configdb
+    ports: 
+     - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: test
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: 123456
+    #mongodb://admin:123456@127.0.0.1:27017/test
+    #docker搭建mongo分片集群
+    #https://www.cnblogs.com/jay54520/p/8444218.html
+
+  consulation: 
+    image: registry.apps.dev.szyjian.com/consultation-server
+    container_name: consulation
+    #restart: always
+    volumes: 
+       - /Users/weidongnian/Docker/Data/consulation/appsettings.json:/app/appsettings.json
+    ports: 
+      - "30012:80"
+    #environment: 
+    #  ASPNETCORE_ENVIRONMENT: Development
+
+  #postgre 数据库
+  pgdb:
+    #restart: always #是否自动启动服务
+    container_name: postgres
+    image: postgres:latest
+    privileged: true  #解决权限
+    ports:
+      - 5432:5432  #映射端口号
+    environment:
+      POSTGRES_PASSWORD: DBA@samjan.com #密码
+      PGDATA: /var/lib/postgresql/data #数据存储文件夹
+    volumes:
+      #- pgdata:/var/lib/postgresql/data
+      - /Users/weidongnian/Docker/Data/pgdb:/var/lib/postgresql/data #将数据映射到对应的路径
+
+  #postgres管理工具
+  pgadmin: 
+    #restart: always
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    ports: 
+      - "30080:80"
+    environment: 
+      PGADMIN_DEFAULT_EMAIL: sa@pg.com
+      PGADMIN_DEFAULT_PASSWORD: 123456
+  nosqlclient: 
+    #restart: always    
+    container_name: nosqlclient
+    image: mongoclient/mongoclient
+    privileged: true
+    ports: 
+      - "3000:3000"
+    environment: 
+      MONGOCLIENT_AUTH: "true"
+      MONGOCLIENT_USERNAME: sa
+      MONGOCLIENT_PASSWORD: 123456
+    volumes: 
+      - /Users/weidongnian/Docker/Data/NoSqlClient:/data/db
+    #https://www.nosqlclient.com/docs/start.html#docker
+
+  #http://localhost:5000/v2/
+  registry: 
+    container_name: registry
+    image: registry:2
+    #restart: always
+    volumes: 
+      - /Users/weidongnian/Docker/Data/registry:/var/lib/registry
+    ports: 
+      - "5000:5000"
+
+
