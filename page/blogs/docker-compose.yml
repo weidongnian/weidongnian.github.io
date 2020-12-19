@@ -1,5 +1,5 @@
 version: '3'
-
+#https://dev.szyjian.com/api/ihospital/LogFile?name=Logs/ihospital-2020-12-19.txt
 services: 
   apisrv:
     container_name: apisrv
