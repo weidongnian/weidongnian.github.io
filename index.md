@@ -22,7 +22,7 @@
 
 . [rabbit dashboard](http://192.168.1.162:31672/#/)
 
-. [惮道](http://219.134.240.180:10037/zentao/user-login.html)
+. [惮道](http://219.134.240.180:10037/zentao/bug-browse-2-0-unresolved-0.html)
 
 ## 卒中中心
 
