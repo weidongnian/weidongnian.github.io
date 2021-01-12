@@ -94,6 +94,8 @@
 
 . [后台](https://dev.szyjian.com/dist/login.html)
 
+. [新摹客，统一产品原型](https://app.mockplus.cn/team/pwrrzvhkzj)
+
 ## 重症
 
 . [产品原型](https://app.mockplus.cn/run/prototype/F9Y-YmLF11/Pk3AaZjdo/Pnab9JDrcuR)
