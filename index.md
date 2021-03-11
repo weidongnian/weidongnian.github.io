@@ -4,7 +4,7 @@
 
 . [腾讯文档](https://docs.qq.com/desktop/)
 
-. [szyj gitlab](http://120.24.100.216/)
+. [szyj gitlab](http://119.45.16.185:10080/)
 
 . [weidongnian@szyjian.com new gitlab](http://219.134.240.180:10080/)
 
