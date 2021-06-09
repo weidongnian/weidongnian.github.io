@@ -98,6 +98,8 @@
 
 . [新摹客，统一产品原型](https://app.mockplus.cn/team/pwrrzvhkzj)
 
+. [新摹客，统一产品设计](https://app.mockplus.cn/app/bmUqeldMo/design)
+
 . [延续护理护士app原型](https://app.mockplus.cn/app/0Xs8rU1titL/design)
 
 ## 重症
