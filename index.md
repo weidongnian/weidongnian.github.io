@@ -6,6 +6,8 @@
 
 . [szyj gitlab](http://119.45.16.185:10080/)
 
+. [git.szyjian.com](https://git.szyjian.com)
+
 . [weidongnian@szyjian.com new gitlab](http://219.134.240.180:10080/)
 
 . [szyj jenkins](http://192.168.1.249:18080/)
