@@ -54,6 +54,8 @@
 
 . [GitLab](http://219.134.240.180:10080/critical/szyj.stroke/-/tree/develop)
 
+. [skywalking](http://192.168.1.162:8088/topology)
+
 ## 胸痛中心
 
 . [胸痛前端接口文档](http://120.24.100.216/weidongnian/szyj.stroke/blob/chestPainCenter/%E5%89%8D%E7%AB%AF%E6%8E%A5%E5%8F%A3%E5%9C%B0%E5%9D%80.md)
