@@ -32,6 +32,8 @@
 
 . [六大中心v2.0接口清单](https://docs.qq.com/doc/DRnJpQVRMakpvRk1m)
 
+. [sonarqube](http://192.168.1.179:59000/projects)
+
 ## 卒中中心
 
 . [卒中前端接口文档](http://120.24.100.216/weidongnian/szyj.stroke/blob/develop/%E5%89%8D%E7%AB%AF%E6%8E%A5%E5%8F%A3%E5%9C%B0%E5%9D%80.md)
