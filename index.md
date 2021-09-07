@@ -34,6 +34,8 @@
 
 . [sonarqube](http://192.168.1.179:59000/projects)
 
+. [128kibana](http://192.168.0.128:5601/app/discover#/?_g=(filters:!(('$state':(store:globalState),meta:(alias:Error,disabled:!f,index:'964a19c0-0fa2-11ec-8751-e14c6ea0ea46',key:level,negate:!f,params:(query:Error),type:phrase),query:(match_phrase:(level:Error)))),refreshInterval:(pause:!t,value:0),time:(from:now-10d,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:Warn,disabled:!t,index:'964a19c0-0fa2-11ec-8751-e14c6ea0ea46',key:level,negate:!f,params:(query:Warn),type:phrase),query:(match_phrase:(level:Warn)))),index:'964a19c0-0fa2-11ec-8751-e14c6ea0ea46',interval:auto,query:(language:kuery,query:''),sort:!()))
+
 ## 卒中中心
 
 . [卒中前端接口文档](http://120.24.100.216/weidongnian/szyj.stroke/blob/develop/%E5%89%8D%E7%AB%AF%E6%8E%A5%E5%8F%A3%E5%9C%B0%E5%9D%80.md)
