@@ -38,6 +38,8 @@
 
 . [尚哲仓储](http://repo.szyjian.com/)
 
+. [公司邮箱](http://mail.szyjian.com:6080/main.php?token=3968f7692e5b50fe785982870bcdbb5e&email=weidongnian%40szyjian.com#msglist.INBOX)
+
 . [128kibana](http://192.168.0.128:5601/app/discover#/?_g=(filters:!(('$state':(store:globalState),meta:(alias:Error,disabled:!f,index:'964a19c0-0fa2-11ec-8751-e14c6ea0ea46',key:level,negate:!f,params:(query:Error),type:phrase),query:(match_phrase:(level:Error)))),refreshInterval:(pause:!t,value:0),time:(from:now-10d,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:Warn,disabled:!t,index:'964a19c0-0fa2-11ec-8751-e14c6ea0ea46',key:level,negate:!f,params:(query:Warn),type:phrase),query:(match_phrase:(level:Warn)))),index:'964a19c0-0fa2-11ec-8751-e14c6ea0ea46',interval:auto,query:(language:kuery,query:''),sort:!()))
 
 ## 卒中中心
