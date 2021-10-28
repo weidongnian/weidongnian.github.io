@@ -44,6 +44,8 @@
 
 . [都昌病历BS](http://www.dcwriter.cn:8080/#/template)
 
+. [看板系统](http://219.134.240.180:51202/#/board?projectId=b5002fe68bb945e3aeb89e6b26a1d1d7&projectTitle=%E5%85%AD%E5%A4%A7%E4%B8%AD%E5%BF%832.0-%E5%8D%97%E6%96%B9%E5%8C%BB)
+
 ## 卒中中心
 
 . [卒中前端接口文档](http://120.24.100.216/weidongnian/szyj.stroke/blob/develop/%E5%89%8D%E7%AB%AF%E6%8E%A5%E5%8F%A3%E5%9C%B0%E5%9D%80.md)
