@@ -1,6 +1,6 @@
 ## 工作办公
 
-. [蓝湖](https://lanhuapp.com/web/#/item?cid=&fid=all&commonly=join)
+. [新蓝湖](https://lanhuapp.com/web/#/item?cid=&fid=all&commonly=join)
 
 . [腾讯文档](https://docs.qq.com/desktop/)
 
