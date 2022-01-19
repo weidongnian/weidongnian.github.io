@@ -24,7 +24,7 @@
 
 . [rabbit dashboard](http://192.168.1.162:31672/#/)
 
-. [惮道](http://219.134.240.180:10037/zentao/bug-browse-2-0-unresolved-0.html)
+. [惮道](https://zentao.szyjian.com/)
 
 . [惮道2](http://219.134.240.180:51140/zentao/bug-browse-7.html)
 
