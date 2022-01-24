@@ -18,7 +18,7 @@
 
 . [nginx 8001](http://localhost:8001)
 
-. [1.14.139.50 数据库工具](http://1.14.139.50:30011/db)
+. [wey1314 数据库工具](http://db.wey1314.com/db/index?config=SzPatient&dbType=0&name=%E5%85%AD%E5%A4%A7%E4%B8%AD%E5%BF%83-%E7%97%85%E6%82%A3%E6%9C%8D%E5%8A%A1)
 
 . [kuboard](http://192.168.1.162:32567/dashboard)
 
