@@ -6,6 +6,8 @@
 
 . [szyj gitlab](http://119.45.16.185:10080/)
 
+. [阿里代码仓库](https://codeup.aliyun.com/)
+
 . [git.szyjian.com](https://git.szyjian.com)
 
 . [weidongnian@szyjian.com new gitlab](http://219.134.240.180:10080/)
