@@ -8,6 +8,8 @@
 
 . [阿里代码仓库](https://codeup.aliyun.com/)
 
+. [云效](https://devops.aliyun.com/organization/60596050b5bb3a7e65865c76)
+
 . [git.szyjian.com](https://git.szyjian.com)
 
 . [weidongnian@szyjian.com new gitlab](http://219.134.240.180:10080/)
