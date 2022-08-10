@@ -8,7 +8,7 @@
 
 . [腾讯文档](https://docs.qq.com/desktop/)
 
-. [钉钉docs](https://alidocs.dingtalk.com/i/spaces))
+. [钉钉docs](https://alidocs.dingtalk.com/i/spaces)
 
 . [szyj gitlab](http://119.45.16.185:10080/)
 
